@@ -42,6 +42,7 @@ int main(void){
         int x = divisor[i];
         if(factor[x].size()==2 && factor[x][0] * factor[x][1] == x){
             counter++;
+            
             if(counter%9==0){
                 cout<<i<<endl;
             }
